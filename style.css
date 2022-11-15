@@ -1,0 +1,9 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+#left-side {
+    display: flex;
+
+}
+
