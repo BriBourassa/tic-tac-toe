@@ -4,10 +4,8 @@ class Player {
         this.token = token 
         this.wins = wins
 
-
-
         increaseWins(){
-
+            this.wins++
         }
     }
 }
