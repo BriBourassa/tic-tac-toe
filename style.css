@@ -1,9 +1,64 @@
 body {
+    display: flex;
+    justify-content: space-between;
     font-family: 'Roboto', sans-serif;
 }
 
-#left-side {
-    display: flex;
-
+aside {
+    background-color: red;
+    width: 50%;
+    border: 30px solid cornflowerblue;
 }
 
+.left-player,
+.right-player {
+	text-align: center;
+    margin-top: 120px;
+	width: 100%;
+}
+
+
+.grid-box {
+    border: 10px solid rgba(0, 0, 0, 0.8);
+    /* padding: 0px 30px 0px 30px; */
+    height: 80px;
+    width: 80px;
+    border-color: black;
+    border-style: solid;
+}
+
+.top-left {
+    border-top: 0px;
+    border-left: 0px;
+}
+
+.top-mid {
+    border-top: 0px
+}
+
+.top-right {
+    border-top: 0px;
+    border-right: 0px;
+}
+
+.mid-left {
+    border-left: 0px;
+}
+
+.mid-right {
+    border-right: 0px;
+}
+
+.bottom-left {
+    border-left: 0px;
+    border-bottom: 0px;
+}
+
+.bottom-mid {
+    border-bottom: 0px;
+}
+
+.bottom-right {
+    border-bottom: 0px;
+    border-right: 0px;
+}

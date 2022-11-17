@@ -4,30 +4,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">   
-    <link href="styles.css" type="text/css" rel="stylesheet">
+    <link href="style.css" type="text/css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=EB+Garamond&display=swap" rel="stylesheet">
 
     <title>Tic Tac Toe!!</title>
 </head>
  
 <body>
-    <section class="main-middle">
-        <h1 id="header">Who goes first?</h1>
-    </section>
 
-    <section>
-        <article>
-            <div class="player-boards" id="left-side">🦈</div>
-            <div class="player-boards" id="right-side">🦖</div>
-        </article>
-    </section>
+    <aside>
+        <div class="left-player">🦈</div>
+    </aside>
 
-    <section>
-        <article class="main-board">
-            <!-- BOARD GOES HERE SOMEHOW -->
-        </article>
+    <main>
 
-    </section>
+        <table class="board-grid">
+            <tr>
+                <td class="grid-box top-left" id="box1"></td>
+                <td class="grid-box top-mid" id="box2"></td>
+                <td class="grid-box top-right" id="box3"></td>
+            </tr>    
+            <tr>
+                <td class="grid-box mid-left" id="box4"></td>
+                <td class="grid-box" id="box5"></td>
+                <td class="grid-box mid-right" id="box6"></td>
+            </tr>
+            <tr>
+                <td class="grid-box bottom-left" id="box7"></td>
+                <td class="grid-box bottom-mid" id="box8"></td>
+                <td class="grid-box bottom-right" id="box9"></td>
+            </tr>
+        </table>
+    </main> 
+
+    
+        <aside>
+            <div class="right-player">🦖</div>
+        </aside>
+    
        
 
 <!-- can make a page where each player chooses their emoji? -->
